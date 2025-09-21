@@ -51,13 +51,7 @@ const FlightBooking = () => {
 					>
 						+
 					</button>
-					<div
-						aria-live="assertive"
-						style={{
-							position: "absolute",
-							clip: "rect(0 0 0 0)",
-						}}
-					>
+					<div role="alert" className="visually-hidden">
 						{message}
 					</div>
 				</div>
